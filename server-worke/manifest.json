@@ -1,0 +1,22 @@
+{
+    "name": "Programação para dispositivos móveis 2",
+    "short_name": "PDM2",
+    "start_url": "./",
+    "scope": "./",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#0f172a",
+    "description": "Aplicativo PWA com exercícios de programação para dispositivos móveis.",
+    "icons": [
+        {
+            "src": "./icons/launchericon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "./icons/launchericon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

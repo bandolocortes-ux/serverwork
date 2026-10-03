@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programação para Dispositivos Móveis 2</title>
+    <meta name="theme-color" content="#0f172a">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <main class="container">
+        <h1>Programação para dispositivos móveis 2</h1>
+
+        <section class="card">
+            <h2>1) Nome da disciplina</h2>
+            <div class="inputs">
+                <input type="text" id="nome-disciplina" placeholder="Digite o nome para aparecer no título">
+            </div>
+            <button id="btn-disciplina">Aplicar</button>
+            <p id="resultado-disciplina" class="resultado"></p>
+        </section>
+
+        <section class="card">
+            <h2>2) Soma de dois números</h2>
+            <div class="inputs">
+                <input type="number" id="num1" placeholder="Número 1">
+                <input type="number" id="num2" placeholder="Número 2">
+            </div>
+            <button id="btn-soma">Executar</button>
+            <p id="resultado-soma" class="resultado"></p>
+        </section>
+
+        <section class="card">
+            <h2>3) Média e status do aluno</h2>
+            <div class="inputs">
+                <input type="number" id="nota1" step="0.1" placeholder="Nota 1">
+                <input type="number" id="nota2" step="0.1" placeholder="Nota 2">
+                <input type="number" id="nota3" step="0.1" placeholder="Nota 3">
+                <input type="number" id="nota4" step="0.1" placeholder="Nota 4">
+            </div>
+            <button id="btn-notas">Executar</button>
+            <p id="resultado-notas" class="resultado"></p>
+        </section>
+
+        <section class="card">
+            <h2>4) Tabuada</h2>
+            <div class="inputs">
+                <input type="number" id="tabuada-numero" placeholder="Digite um número">
+            </div>
+            <button id="btn-tabuada">Executar</button>
+            <p id="resultado-tabuada" class="resultado"></p>
+        </section>
+
+        <section class="card">
+            <h2>5) Maior valor dentre os digitados</h2>
+            <div class="inputs">
+                <input type="text" id="valores-maior" placeholder="Ex.: 8 15 3 20">
+            </div>
+            <button id="btn-maior">Executar</button>
+            <p id="resultado-maior" class="resultado"></p>
+        </section>
+
+        <section class="card">
+            <h2>6) Maior valor até entrar com -1</h2>
+            <div class="inputs">
+                <input type="text" id="valores-maior-ate-1" placeholder="Ex.: 5 10 3 -1">
+            </div>
+            <button id="btn-maior-ate-1">Executar</button>
+            <p id="resultado-maior-ate-1" class="resultado"></p>
+        </section>
+
+        <section class="card">
+            <h2>7) Números ímpares do vetor</h2>
+            <div class="inputs">
+                <input type="text" id="vetor-impares" placeholder="Ex.: 1 2 3 4 5 6 7 8 9 10">
+            </div>
+            <button id="btn-impares">Executar</button>
+            <p id="resultado-impares" class="resultado"></p>
+        </section>
+
+        <section class="card">
+            <h2>8) Nome de trás para frente</h2>
+            <div class="inputs">
+                <input type="text" id="nome-invertido" placeholder="Digite seu nome">
+            </div>
+            <button id="btn-nome-invertido">Executar</button>
+            <p id="resultado-nome-invertido" class="resultado"></p>
+        </section>
+
+        <section class="card">
+            <h2>9) Funcionários com salário acima do mínimo</h2>
+            <div class="funcionario-grid">
+                <div class="funcionario-item">
+                    <h3>Funcionário 1</h3>
+                    <input type="text" id="nome-1" placeholder="Nome">
+                    <input type="number" id="idade-1" placeholder="Idade">
+                    <input type="text" id="sexo-1" placeholder="Sexo">
+                    <input type="number" id="salario-1" step="0.01" placeholder="Salário">
+                </div>
+                <div class="funcionario-item">
+                    <h3>Funcionário 2</h3>
+                    <input type="text" id="nome-2" placeholder="Nome">
+                    <input type="number" id="idade-2" placeholder="Idade">
+                    <input type="text" id="sexo-2" placeholder="Sexo">
+                    <input type="number" id="salario-2" step="0.01" placeholder="Salário">
+                </div>
+                <div class="funcionario-item">
+                    <h3>Funcionário 3</h3>
+                    <input type="text" id="nome-3" placeholder="Nome">
+                    <input type="number" id="idade-3" placeholder="Idade">
+                    <input type="text" id="sexo-3" placeholder="Sexo">
+                    <input type="number" id="salario-3" step="0.01" placeholder="Salário">
+                </div>
+                <div class="funcionario-item">
+                    <h3>Funcionário 4</h3>
+                    <input type="text" id="nome-4" placeholder="Nome">
+                    <input type="number" id="idade-4" placeholder="Idade">
+                    <input type="text" id="sexo-4" placeholder="Sexo">
+                    <input type="number" id="salario-4" step="0.01" placeholder="Salário">
+                </div>
+                <div class="funcionario-item">
+                    <h3>Funcionário 5</h3>
+                    <input type="text" id="nome-5" placeholder="Nome">
+                    <input type="number" id="idade-5" placeholder="Idade">
+                    <input type="text" id="sexo-5" placeholder="Sexo">
+                    <input type="number" id="salario-5" step="0.01" placeholder="Salário">
+                </div>
+            </div>
+            <button id="btn-funcionarios">Executar</button>
+            <p id="resultado-funcionarios" class="resultado"></p>
+        </section>
+
+        <section class="card">
+            <h2>10) Operações básicas</h2>
+            <div class="inputs">
+                <input type="number" id="valor-operacao-1" placeholder="Número 1">
+                <input type="number" id="valor-operacao-2" placeholder="Número 2">
+            </div>
+            <div class="op-buttons">
+                <button class="op-button" data-op="soma">Somar</button>
+                <button class="op-button" data-op="subtracao">Subtrair</button>
+                <button class="op-button" data-op="multiplicacao">Multiplicar</button>
+                <button class="op-button" data-op="divisao">Dividir</button>
+            </div>
+            <p id="resultado-operacoes" class="resultado"></p>
+        </section>
+    </main>
+
+    <script src="./App.js"></script>
+</body>
+</html>
